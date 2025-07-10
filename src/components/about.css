@@ -1,0 +1,15 @@
+img {
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+}
+#about {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
+}
+.aboutText {
+    max-width: 600px;
+}

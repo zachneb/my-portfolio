@@ -1,0 +1,33 @@
+.projects-section {
+  padding: 2rem;
+  text-align: center;
+}
+.project-grid {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.project-card {
+  border: 3px solid #329aca;
+  border-radius: 8px;
+  width: 300px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.6s ease;
+  text-decoration: none;
+  color: white;
+}
+.project-card:visited {
+    color: white;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+}
+.project-image {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}

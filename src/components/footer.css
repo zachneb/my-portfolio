@@ -1,0 +1,20 @@
+footer {
+    text-align: center;
+    padding: 2rem;
+}
+footer>p {
+    font-size: 12.5px;
+}
+.link {
+    justify-content: center;
+    text-decoration: none;
+    padding: 7px;
+    gap: 1rem;
+    color: rgb(31, 207, 163);
+}
+.link:visited {
+    color: rgb(31, 207, 163);
+}
+span {
+    color: rgb(34, 106, 189);
+}

@@ -1,0 +1,10 @@
+.contact-section {
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+}
+.contact-section>p {
+    text-decoration: underline rgb(34, 106, 189);
+    text-underline-offset: 6px;
+    font-size: 17px;
+}

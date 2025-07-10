@@ -1,0 +1,22 @@
+header {
+    margin-bottom: 40px;
+}
+h1 {
+    margin-left: 2em;
+    font-size: 2.6em;
+}
+.navbar {
+    text-align: end;
+    padding: 1rem;
+}
+.nav-link {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    font-weight: 550;
+    transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: #61dafb;
+}

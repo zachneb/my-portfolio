@@ -1,0 +1,9 @@
+.experience-section {
+    text-align: center;
+    padding: 2rem;
+    justify-content: center;
+}
+.experience-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
