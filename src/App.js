@@ -6,11 +6,11 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Experience" element={<Experience />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
